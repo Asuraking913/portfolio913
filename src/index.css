@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 :root {
-    --bg: black;
-    --text: white;
+    --bg: white;
+    --text: black;
     --accent: #c51b28;
     --padx: 4em;
+    --accentH: #c51b29d8;
 }
 
 @font-face {
