@@ -22,4 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-font-icons
+font-icons/js
+font-icons/less
+font-icons/metadata
+font-icons/scss
+font-icons/sprites
+font-icons/svgs
+font-icons/webfonts
