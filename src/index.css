@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg: black;
+    --text: white;
+    --accent: #c51b28;
+    --padx: 4em;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("../src/font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("../src//font/Poppins-Regular.ttf");
+}
+
+.line {
+    line-height: 1em;
+}
+
+.roboto {
+    font-family: roboto;
+}
+
+.poppins {
+    font-family: poppins;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+.bg1 {
+    background-image: url("../src/assets/img4.png");
+}
