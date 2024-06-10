@@ -10,7 +10,7 @@ function Head() {
   }
 
   return (
-    <div className='flex justify-between fixed top-0 w-full items-center min-[300px]:px-[--padx1] sm:px-[--padx] py-[1em] bg-[var(--bg)]'>
+    <div className='flex z-[20] justify-between fixed top-0 w-full items-center min-[300px]:px-[--padx1] sm:px-[--padx] py-[1em] bg-[var(--bg)]'>
         <i className='fa-solid fa-bug text-3xl text-[--accent] animate-bounce'></i>
         <i onClick={handleNav} className='fa-solid fa-bars sm:hidden text-[--accent] text-4xl'></i>
         {
