@@ -6,7 +6,7 @@ function Skill({h3, p}) {
 
     {
         return (
-            <div className='sm:w-[350px] min-[300px]:w-[400px] text-center px-[3em] rounded-[.5em] boxSha items-center justify-center p-[1em] bg-[--accent] flex flex-col gap-[.5em]'>
+            <div className='sm:w-[350px] duration-[0.4s] min-[300px]:w-[400px] text-center px-[3em] rounded-[.5em] boxSha items-center justify-center p-[1em] bg-[--accent] flex flex-col gap-[.5em]'>
                 <div className='flex flex-col gap-[.5em]'>
                     <h3 className='text-xl text-nowrap poppins font-bold text-[--bg]'>{h3}</h3>
                     <p className='roboto italic text-white'>{p}</p>
@@ -18,7 +18,7 @@ function Skill({h3, p}) {
 
     else {
         return (
-          <div className='sm:w-[350px] min-[300px]:w-[400px] text-center px-[1em] boxSha rounded-[1em] items-center justify-between p-[1em] flex flex-col '>
+          <div className='sm:w-[350px] sm:h-[220px] duration-[0.4s] min-[300px]:w-[400px] text-center px-[1em] boxSha rounded-[1em] items-center justify-between p-[1em] flex flex-col '>
               <div className='flex flex-col gap-[1em]'>
                   <h3 className='text-xl text-[--accent] text-nowrap font-bold poppins'>{h3}</h3>
                   <p className='roboto italic '>{p}</p>

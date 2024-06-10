@@ -68,3 +68,8 @@ body {
 .class1 .swiper-pagination {
     padding-top: 4em;
 }
+
+body {
+    transition: 2s;
+    transition-timing-function: ease-in;
+}
