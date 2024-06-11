@@ -71,8 +71,8 @@ function Body() {
               <p className='sm:text-xl min-[300px]:text-[1.2em] text-[--accent] font-bold roboto'>Hello!!</p>
               <h1 className='poppins sm:text-[3rem] min-[300px]:text-3xl text-[--text] line font-bold'><span><span className='sm:block'>I'm Israel</span> Shedrack</span></h1>
               <h2 className='sm:text-2xl min-[300px]:text-wrap min-[300px]:text-xl text-[--text] roboto font-semibold'>A <span className='  '>Software Developer</span> with 4years of experience</h2>
-              <p className='w-[50ch] sm:text-[--text] min-[300px]:w-[35ch] min-[300px]:text-wrap roboto text-xl min-[300px]:text-[1.1em]'>Building Responsive interfaces for websites, along with developing automated scripts for data scraping</p>
-              <button className='p-[1em] hover:bg-[--accentH] duration-[1s] rounded-[5px] px-[1em] bg-[--accent] w-[40%] text-white roboto font-semibold textxl'>Download CV</button>
+              <p className='w-[50ch] sm:text-[--text] min-[300px]:w-[100%] roboto text-xl min-[300px]:text-[1.1em]'>Building Responsive interfaces for websites, along with developing automated scripts for data scraping</p>
+              <button className='p-[1em] hover:bg-[--accentH] duration-[1s] rounded-[5px] px-[.5em] bg-[--accent] w-[40%] text-white roboto font-semibold textxl'>Download CV</button>
             </div>
             <div className='p-[2em] relative sm:flex min-[300px]:hidden pr-[8em] items-center justify-center pb-[4em]'>
               <img src={myImage1} className='h-[520px] rounded-br-[8em]' alt="" />
@@ -94,7 +94,7 @@ function Body() {
             <p className='roboto sm:text-nowrap'><span className='text-[--accent] font-bold poppins'>Contacts:</span> Facebook, Linkedin, whatsapp, email</p>
           </div>
           <div className='p-[1em] pl-0 flex items-center justify-between'>
-          <button className='sm:p-[1em] min-[300px]:p-[1em] min-[300px]:px-[.8em] text-nowrap rounded-[5px] hover:bg-[--accentH] duration-[1s] sm:px-[1.5em] bg-[--accent] w-[40%] text-white roboto font-semibold textxl'>Download CV</button> 
+          <button className='sm:p-[1em] min-[300px]:p-[1em] min-[300px]:px-[.5em] text-nowrap rounded-[5px] hover:bg-[--accentH] duration-[1s] sm:px-[1.5em] bg-[--accent] w-[40%] text-white roboto font-semibold textxl'>Download CV</button> 
           <div className='flex gap-[.5em] min-[300px]:flex-col'>
             <span className='poppins min-[300px]:block text-nowrap font-bold text-[--accent] text-xl'>Follow me:</span> <div className='flex gap-[.5em] items-center'>
               <i className='fa-brands animate-pulse hover:scale-125 duration-[0.5s] text-[1.1em] fa-facebook text-blue-600'></i>
@@ -152,7 +152,7 @@ function Body() {
           </ul>
         </div>
         <div className='mt-[2em] sm:hidden min-[300px]:block'>
-          <ul className='flex justify-between'>
+          <ul className='flex justify-between gap-[1em]'>
               <li className=''>
                 <h4 className='text-[--accent] font-bold text-[1em]'>Python programming</h4>
                 <p className='roboto italic list-decimal'><span className='font-bold'>Selenium:</span> for scraping</p>
@@ -174,9 +174,9 @@ function Body() {
         <div className='flex items-center w-full'>
           <div className='w-full flex flex-col justify-center min-[300px]:px-[--padx1]'>
             <h2 className='text-2xl min-[300px]:text-xl poppins text-[--accent] font-bold'>Featured Projects</h2>
-            <p className='roboto capitalize text-xl italic'>Project catalogue</p>
+            <p className='roboto capitalize sm:text-xl min-[300px]:text-[1em] italic'>Project catalogue</p>
           </div>
-          <div className='mr-[2em]'>
+          <div className='mr-[.5em]'>
             <a href="" className='p-[1em] hover:bg-[--accentH] duration-[1s] px-[2em] text-nowrap roboto font-bold text-[white] rounded-[.2em] bg-[--accent]'>View all</a>
           </div>
         </div>
