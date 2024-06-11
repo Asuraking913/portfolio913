@@ -71,7 +71,7 @@ function Body() {
               <p className='sm:text-xl min-[300px]:text-[1.2em] text-[--accent] font-bold roboto'>Hello!!</p>
               <h1 className='poppins sm:text-[3rem] min-[300px]:text-3xl text-[--text] line font-bold'><span><span className='sm:block'>I'm Israel</span> Shedrack</span></h1>
               <h2 className='sm:text-2xl min-[300px]:text-wrap min-[300px]:text-xl text-[--text] roboto font-semibold'>A <span className='  '>Software Developer</span> with 4years of experience</h2>
-              <p className='w-[50ch] sm:text-[--text] min-[300px]:w-[35ch] roboto text-xl min-[300px]:text-[1.1em]'>Building Responsive interfaces for websites, along with developing automated scripts for data scraping</p>
+              <p className='w-[50ch] sm:text-[--text] min-[300px]:w-[35ch] min-[300px]:text-wrap roboto text-xl min-[300px]:text-[1.1em]'>Building Responsive interfaces for websites, along with developing automated scripts for data scraping</p>
               <button className='p-[1em] hover:bg-[--accentH] duration-[1s] rounded-[5px] px-[1em] bg-[--accent] w-[40%] text-white roboto font-semibold textxl'>Download CV</button>
             </div>
             <div className='p-[2em] relative sm:flex min-[300px]:hidden pr-[8em] items-center justify-center pb-[4em]'>
