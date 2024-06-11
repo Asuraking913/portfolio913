@@ -70,7 +70,7 @@ function Body() {
             <div className='flex gap-[0.5em] flex-col'>
               <p className='sm:text-xl min-[300px]:text-[1.2em] text-[--accent] font-bold roboto'>Hello!!</p>
               <h1 className='poppins sm:text-[3rem] min-[300px]:text-4xl text-[--text] line font-bold'><span><span className='sm:block'>I'm Israel</span> Shedrack</span></h1>
-              <h2 className='sm:text-2xl min-[300px]:text-xl min-[300px]:text-nowrap text-[--text] roboto font-semibold'>A <span className='  '>Software Developer</span> with 4years of experience</h2>
+              <h2 className='sm:text-2xl min-[30px]:text-wrap min-[300px]:text-xl min-[300px]:text-nowrap text-[--text] roboto font-semibold'>A <span className='  '>Software Developer</span> with 4years of experience</h2>
               <p className='w-[50ch] sm:text-[--text] min-[300px]:w-[35ch] roboto text-xl'>Building Responsive interfaces for websites, along with developing automated scripts for data scraping</p>
               <button className='p-[1em] hover:bg-[--accentH] duration-[1s] rounded-[5px] px-[1.5em] bg-[--accent] w-[40%] text-white roboto font-semibold textxl'>Download CV</button>
             </div>
@@ -107,10 +107,10 @@ function Body() {
           </div>
         </div>
       </section>
-      <section className='gap-[1.5em] justify-center sm:py-[2em] sm:px-[--padx] min-[300px]:px-[--padx1] flex flex-col items-center sm:h-[80vh] min-[300px]:h-auto'>
+      <section className='gap-[1.5em] sm:py-[2em] sm:px-[--padx] min-[300px]:px-[--padx1] flex flex-col sm:h-[80vh] min-[300px]:h-auto'>
         <h2 className='text-xl roboto font-semibold'>My Expertise</h2>
         <h3 className='capitalize text-3xl min-[300px]:text-center text-[--accent] font-semibold poppins'>Awesome Services for you</h3>
-        <div className='flex sm:gap-[5em] min-[300px]:w-full min-[300px]:items-center min-[300px]:gap-[2em] sm:flex-row min-[300px]:flex-col'>{skillItems.map(skill => (<Skill h3={skill.h3} p={skill.p} />))}</div>
+        <div className='flex sm:gap-[5em] min-[300px]:justify-center min-[300px]:w-full min-[300px]:items-center min-[300px]:gap-[2em] sm:flex-row min-[300px]:flex-col'>{skillItems.map(skill => (<Skill h3={skill.h3} p={skill.p} />))}</div>
       </section>
       <section className='h-auto min-[300px]:py-[6em] sm:py-[4em] justify-between flex sm:flex-row min-[300px]:flex-col min-[300px]:px-[--padx1] sm:p-[--padx] items-center'>
         <div className='sm:w-[50%] min-[300px]:w-[100%] '>
@@ -173,7 +173,7 @@ function Body() {
       <section className='flex flex-col gap-[3em] justify-center py-[4em] items-center sm:px-[--padx] min-[300px]:px-[padx1]'>
         <div className='flex items-center w-full'>
           <div className='w-full flex flex-col justify-center min-[300px]:px-[--padx1]'>
-            <h2 className='text-2xl poppins text-[--accent] font-bold'>Featured Projects</h2>
+            <h2 className='text-2xl min-[300px]:text-xl poppins text-[--accent] font-bold'>Featured Projects</h2>
             <p className='roboto capitalize text-xl italic'>Project catalogue</p>
           </div>
           <div className='mr-[2em]'>
