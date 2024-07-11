@@ -2,7 +2,7 @@ import React from 'react'
 
 function Foot() {
   return (
-    <section className='bg-[--accent] sm:h-[45vh] min-[300px]:h-[auto] min-[300px]:py-[2em] sm:py-[4em] flex flex-col justify-center items-center gap-[2em]'>
+    <section id='foot' className='bg-[--accent] sm:h-[45vh] min-[300px]:h-[auto] min-[300px]:py-[2em] sm:py-[4em] flex flex-col justify-center items-center gap-[2em]'>
         <h2 className='text-[2.6rem] poppins text-center text-white font-bold'>Contact me</h2>
         <ul className='sm:grid min-[300px]:flex min-[300px]:flex-wrap justify-center min-[300px]:gap-[3em] grid-cols-3  place-items-center'>
             <li>
