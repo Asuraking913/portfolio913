@@ -8,7 +8,7 @@ function Proje({img, h3, p, skill, link}) {
         <p className='roboto italic'>{p}</p>
         <div className='flex items-center justify-between'>
             <p className='roboto text-[1em]'>Built with: {skill}</p>
-            <a href={link} className='text-[--accent] text-nowrap font-bold border-b-2 border-b-[--accent]'>Read More...</a>
+            <a href={link} className='text-[--accent] text-nowrap font-bold border-b-2 border-b-[--accent]'>View project...</a>
         </div>
     </div>
   )

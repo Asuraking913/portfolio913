@@ -14,11 +14,13 @@
 @font-face {
     font-family: roboto;
     src: url("../src/font/Roboto-Regular.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: poppins;
     src: url("../src//font/Poppins-Regular.ttf");
+    font-display: swap;
 }
 
 .line {

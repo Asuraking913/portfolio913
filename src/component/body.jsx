@@ -13,6 +13,7 @@ import myImage3 from "./../assets/chef.jpg"
 import myImage4 from "./../assets/bank.jpg"
 import myImage5 from "./../assets/asura.jpg"
 import myImage6 from "./../assets/asura_web.jpg"
+import myImage7 from "./../assets/screen81.jpg"
 import Proje from './project'
 import Foot from './footer'
 
@@ -85,6 +86,13 @@ function Body() {
       skill: "Reactjs, Tailwindcss",
       p: "A Website to download my Desktop application for both windows and Linux based operating systems", 
       link: "https://asuraswift-website.vercel.app/"
+    },
+    {
+      img: myImage7,
+      h3: "Shopping Cart Website", 
+      skill: "Reactjs, Tailwindcss, javascript",
+      p: "A three page responsive and functional website that display list of static products", 
+      link: "https://shop-cart-website-hng.vercel.app/"
     }
   ]
 
@@ -146,11 +154,11 @@ function Body() {
           </div>
         </div>
       </section>
-      <section className='gap-[1.5em] sm:py-[2em] sm:px-[--padx] min-[300px]:px-[--padx1] flex flex-col sm:h-[80vh] min-[300px]:h-[100%]'>
+      <section className='gap-[1.5em] sm:py-[2em] sm:px-[--padx] min-[300px]:px-[--padx1] flex flex-col sm:h-[auto] min-[300px]:h-[100%]'>
         <h2 className='text-xl roboto font-semibold'>My Expertise</h2>
         <h3 className='capitalize text-3xl min-[300px]:text-2xl min-[300px]:text-center text-[--accent] font-semibold poppins'>Awesome Services for you</h3>
         <div className='hidden sm:flex sm:gap-[5em] min-[300px]:justify-center min-[300px]:w-full min-[300px]:items-center min-[300px]:gap-[2em] sm:flex-row min-[300px]:flex-col'>{skillItems.map(skill => (<Skill h3={skill.h3} p={skill.p} />))}</div>
-        <div className=' flex sm:gap-[5em] min-[300px]:justify-center min-[300px]:w-full min-[300px]:items-center min-[300px]:gap-[2em] sm:flex-row min-[300px]:flex-col'>{skillItems1.map(skill => (<Skill h3={skill.h3} p={skill.p} />))}</div>
+        <div className=' flex sm:hidden sm:gap-[5em] min-[300px]:justify-center min-[300px]:w-full min-[300px]:items-center min-[300px]:gap-[2em] sm:flex-row min-[300px]:flex-col'>{skillItems1.map(skill => (<Skill h3={skill.h3} p={skill.p} />))}</div>
       </section>
       <section id='skill' className='h-auto min-[300px]:py-[6em] sm:py-[4em] justify-between flex sm:flex-row min-[300px]:flex-col min-[300px]:px-[--padx1] sm:p-[--padx] items-center'>
         <div className='sm:w-[50%] min-[300px]:w-[100%] '>
