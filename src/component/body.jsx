@@ -34,8 +34,28 @@ function Body() {
       {
         h3: "Data Scraping", 
         p: "I specialize in creating executable scripts that Extract content from the web or run automated process on the web"
-      },
+      }
   ]
+
+  const skillItems1= [
+    {
+      h3: "Web design", 
+      p: "I create websites designs with good functionality and responsive interfaces that is adaptable to devices of various screen sizes"
+    },
+    {
+      h3: "Desktop GUI Development", 
+      p: "I build desktop applications using python, applications that can serve as business inventroy systems, or Desktop GUI applications that run automated scripts on"
+    }, 
+    {
+      h3: "Data Scraping", 
+      p: "I specialize in creating executable scripts that Extract content from the web or run automated process on the web"
+    },
+    {
+      h3: "Back end web developer", 
+      p: "I am able to create backend programs for web applications with sqlite database and PostgreSql, i use python flask's framework as an ORM to communicate with these database to bring about the functionality of a website "
+    },
+]
+
 
   const projectItems = [
     {
@@ -129,7 +149,8 @@ function Body() {
       <section className='gap-[1.5em] sm:py-[2em] sm:px-[--padx] min-[300px]:px-[--padx1] flex flex-col sm:h-[80vh] min-[300px]:h-[100%]'>
         <h2 className='text-xl roboto font-semibold'>My Expertise</h2>
         <h3 className='capitalize text-3xl min-[300px]:text-2xl min-[300px]:text-center text-[--accent] font-semibold poppins'>Awesome Services for you</h3>
-        <div className='flex sm:gap-[5em] min-[300px]:justify-center min-[300px]:w-full min-[300px]:items-center min-[300px]:gap-[2em] sm:flex-row min-[300px]:flex-col'>{skillItems.map(skill => (<Skill h3={skill.h3} p={skill.p} />))}</div>
+        <div className='hidden sm:flex sm:gap-[5em] min-[300px]:justify-center min-[300px]:w-full min-[300px]:items-center min-[300px]:gap-[2em] sm:flex-row min-[300px]:flex-col'>{skillItems.map(skill => (<Skill h3={skill.h3} p={skill.p} />))}</div>
+        <div className=' flex sm:gap-[5em] min-[300px]:justify-center min-[300px]:w-full min-[300px]:items-center min-[300px]:gap-[2em] sm:flex-row min-[300px]:flex-col'>{skillItems1.map(skill => (<Skill h3={skill.h3} p={skill.p} />))}</div>
       </section>
       <section id='skill' className='h-auto min-[300px]:py-[6em] sm:py-[4em] justify-between flex sm:flex-row min-[300px]:flex-col min-[300px]:px-[--padx1] sm:p-[--padx] items-center'>
         <div className='sm:w-[50%] min-[300px]:w-[100%] '>
