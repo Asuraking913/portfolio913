@@ -42,25 +42,29 @@ function Body() {
       img: myImage3,
       h3: "Chefgods restaurant website", 
       skill: "HTML, CSS/SCSS",
-      p: "A responsive two paged Restaurant website for, highly responsive for various devices"
+      p: "A responsive two paged Restaurant website for, highly responsive for various devices", 
+      link: "https://restaurant-website-one-sigma.vercel.app/"
     },
     {
       img: myImage4,
       h3: "Banking Site landing page", 
       skill: "Reactjs, Tailwindcss",
-      p: "A simple landing page website for a bank, responsive for both mobile and Desktop views"
+      p: "A simple landing page website for a bank, responsive for both mobile and Desktop views",
+      link: "https://banking-site-landing-page.vercel.app/"
     }, 
     {
       img: myImage5,
       h3: "AsuraSwift Desktop application", 
       skill: "Python, PySimpleGUI, sockets",
-      p: "A Desktop application to transfer files betweeen two computers via a wifi connection"
+      p: "A Desktop application to transfer files betweeen two computers via a wifi connection", 
+      link: "https://github.com/Asuraking913/Transfer_app"
     },
     {
       img: myImage6,
       h3: "AsuraSwift Website", 
       skill: "Reactjs, Tailwindcss",
-      p: "A Website to download my Desktop application for both windows and Linux based operating systems"
+      p: "A Website to download my Desktop application for both windows and Linux based operating systems", 
+      link: "https://asuraswift-website.vercel.app/"
     }
   ]
 
@@ -111,12 +115,12 @@ function Body() {
           <div className='p-[1em] pl-0 flex items-center justify-between'>
           <button className='sm:p-[1em] min-[300px]:p-[1em] min-[300px]:px-[.5em] text-nowrap rounded-[5px] hover:bg-[--accentH] duration-[1s] sm:px-[1.5em] bg-[--accent] w-[40%] text-white roboto font-semibold textxl'>Download CV</button> 
           <div className='flex gap-[.5em] min-[300px]:flex-col'>
-            <span className='poppins min-[300px]:block text-nowrap font-bold text-[--accent] text-xl'>Follow me:</span> <div className='flex gap-[.5em] items-center'>
-              <i className='fa-brands cursor-pointer animate-pulse hover:scale-125 duration-[0.5s] text-[1.1em] fa-facebook text-blue-600'></i>
-                          <i className='fa-brands cursor-pointer animate-pulse hover:scale-125 duration-[0.5s] hover:animate-none text-[1.1em] fa-linkedin text-blue-600'></i>
-                          <i className='fa-brands cursor-pointer animate-pulse hover:animate-none hover:scale-125 duration-[0.5s] text-[1.1em] fa-x-twitter text-black'></i>
-                          <i className='fa-brands cursor-pointer animate-pulse hover:animate-none hover:scale-125 duration-[0.5s] text-[1.1em] fa-whatsapp text-green-600'></i>
-                          <a className='' href="https://github.com/Asuraking913?tab=repositories"><i className='fa-brands animate-pulse cursor-pointer hover:scale-125 duration-[0.5s] text-[1.1em] fa-github text-[--text] hover:animate-none'></i></a>
+            <span className='poppins min-[300px]:block text-nowrap font-bold text-[--accent] text-xl'>Follow me:</span> <div className='flex gap-[.5em] items-center justify-center'>
+              <i className='fa-brands cursor-pointer animate-pulse hover:scale-125 duration-[0.5s] text-[1.3em] fa-facebook text-blue-600'></i>
+                          <i className='fa-brands cursor-pointer animate-pulse hover:scale-125 duration-[0.5s] hover:animate-none text-[1.3em] fa-linkedin text-blue-600'></i>
+                          <i className='fa-brands cursor-pointer animate-pulse hover:animate-none hover:scale-125 duration-[0.5s] text-[1.3em] fa-x-twitter text-black'></i>
+                          <a href="https://wa.me/09166701945"><i className='fa-brands cursor-pointer animate-pulse hover:animate-none hover:scale-125 duration-[0.5s] text-[1.3em] fa-whatsapp text-green-600'></i></a>
+                          <a className='' href="https://github.com/Asuraking913?tab=repositories"><i className='fa-brands animate-pulse cursor-pointer hover:scale-125 duration-[0.5s] text-[1.3em] fa-github text-[--text] hover:animate-none'></i></a>
             </div>
           </div>
           </div>
@@ -196,7 +200,7 @@ function Body() {
           </div>
         </div>
         <div className='grid sm:grid-cols-2 min-[300px]:grid-cols-1 sm:grid-rows-2 place-items-center sm:gap-[8em] min-[300px]:gap-[em] min-[300px]:gap-y-[3em] sm:gap-y-[2em]'>
-            {projectItems.map(proj => (<Proje img={proj.img} h3={proj.h3} p={proj.p} skill={proj.skill}/>))}
+            {projectItems.map(proj => (<Proje img={proj.img} h3={proj.h3} link={proj.link} p={proj.p} skill={proj.skill}/>))}
         </div>
       </section>
       <Foot />

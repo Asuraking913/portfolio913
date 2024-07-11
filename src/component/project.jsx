@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Proje({img, h3, p, skill}) {
+function Proje({img, h3, p, skill, link}) {
   return (
     <div className='sm:w-[100%] min-[300px]:w-[95%] duration-[0.5s] flex flex-col gap-[1em]'>
         <img src={img} className='w-full' alt="Image" />
@@ -8,7 +8,7 @@ function Proje({img, h3, p, skill}) {
         <p className='roboto italic'>{p}</p>
         <div className='flex items-center justify-between'>
             <p className='roboto text-[1em]'>Built with: {skill}</p>
-            <a href="" className='text-[--accent] text-nowrap font-bold border-b-2 border-b-[--accent]'>Read More...</a>
+            <a href={link} className='text-[--accent] text-nowrap font-bold border-b-2 border-b-[--accent]'>Read More...</a>
         </div>
     </div>
   )
